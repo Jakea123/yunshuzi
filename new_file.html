@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>Document</title>
+	<style>
+		*{
+			margin:0px;
+			padding:0px;
+			text-decoration: none;
+		}
+	a {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    text-decoration: none;
+    
+}
+
+			
+		
+.a1{
+	width:297px;
+	height:150px;
+	border:1px solid red;
+	margin:0 auto;
+	position:relative;
+	/*background:url(img/首页_03.png) no-repeat center;*/
+}
+.b1{
+	width:297px;
+	height:150px;
+	background:#FFFFFF;
+	opacity:0.5;
+}
+.c1{
+	width: 800px;
+	height:50px;
+	border:1px solid #000000;
+	margin:0 auto;
+	margin-top:100px;
+	text-align:center;
+	line-height:50px;
+}
+.d1{
+	width:50px;
+	height:20px;
+	/*border:1px solid #000000;*/
+	float:left;
+	margin-left:10px;
+	display: block;
+	
+}
+.t{
+	color:#FF9900;
+}
+
+	</style>
+</head>
+<body>
+	<div class="a1">
+	<img src="img/首页_03.png"/>
+<!--	<div class="b1"></div>-->
+	</div>
+	
+	<ul class="c1">
+		<li class="d1"><a href="">我的</a></li>
+		<li class="d1"><a href="">你的</a></li>
+		<li class="d1"><a href="">他的</a></li>
+		<li class="d1"><a href="">我们的</a></li>
+	</ul>
+	
+	
+</body>
+<script src="js/jquery-3.2.1.min.js"></script>
+<script>
+	$(function(){
+		$(".a1").hover(function(){
+//			$(this).css({
+//				"background":"red",
+//				"Zindex":"9999",
+//				"opacity":"0.5"
+//				});
+       $(this).addClass('b1');
+		},function(){
+			$(this).removeClass('b1');
+		})
+		
+	$(".d1").click(function(){
+		$(this).eq().addClass('t');
+	})
+		
+		
+		
+		
+		
+		
+		
+	})
+	
+</script>
+</html>
