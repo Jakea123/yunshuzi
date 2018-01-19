@@ -2,7 +2,7 @@
 .tab{
 	width:100%;
 	height:42px;
-	background:#CCCCCC;
+	background:#f2f2f2;
 }
 .tabbox{
 	width:1200px;
@@ -344,6 +344,7 @@
 	margin:0 auto;
 	border:1px solid #cccccc;
 	margin-top:10px;
+	margin-bottom:19px;
 }
 .xp-heng-zi{
 	color:#0487e2;
@@ -371,7 +372,170 @@
 	height:890px;
 	border:1px solid #000;
 	margin:0 auto;
+	
 }
+.anxuboxs img{
+	width:400px;
+	height:400px;
+	float:left;
+}
+.anxu-input{
+	width:661px;
+	height:829px;
+	border:1px solid #000;
+	float:left;
+	margin-top:30px;
+	margin-left:100px;
+	_margin-left:50px;
+}
+.ctysl label{
+	padding-right:33px;
+}
+.ctysl select{
+	width:409px;
+	height:30px;
+	border:1px solid #C8CACB;
+   -moz-appearance:none;
+   -webkit-appearance:none;
+   color:#57595a;
+   border-radius:3px;
+}
+.ctysl{
+	margin-bottom: 18px;
+}
+.srts{
+	margin-bottom: 18px;
+}
+.srts input{
+	width:403px;
+	height:30px;
+	border:1px solid #C8CACB;
+	outline:none;
+	padding-left:5px;
+	 color:#57595a;
+}
+
+.srts label{
+	padding-right:33px;
+}
+.checkre label{
+	padding-right:33px;
+}
+.checkre input{
+	width:17px;
+	height:17px;
+	background:#FFFFFF;
+	border:1px solid #000;
+}
+.texsu{
+	margin-bottom: 18px;
+}
+.texsu textarea{
+	margin-left:118px;
+}
+.lift{
+	
+}
+.lift label{
+	padding-right:63px;
+}
+/*黑块部分*/
+
+.foot-hei{
+	width:100%;
+	height:224px;
+	background-color:#333333;
+	margin-top:44px;
+	
+}
+
+.foot-neibu{
+	width:1200px;
+	height:152px;
+	margin-top:39px;
+	/*border:1px solid #FFFFFF;*/
+	margin:0 auto;
+	
+}
+.shuzus{
+	width:79px;
+	height:150px;
+	/*border:1px solid #FFFFFF;*/
+	margin-top:43px;
+	float: left;
+	margin-left:124px;
+	_margin-left:62px;
+}
+.foots-zui{
+	color:#FFFFFF;
+	font-size:12px;
+	line-height:22px;
+}
+.shuzus .dds{
+	font-size:16px;
+	font-weight:bold;
+	
+}
+
+.foots-zui a,.dds a{
+	color:#FFFFFF;
+}
+.foots-zui a:hover{
+	color:#0487e2;
+}
+
+.lianxis{
+	width:250px;
+	height:150px;
+	float:left;
+	margin-top:81px;
+	margin-left:116px;
+}
+.lianxis .dianhua{
+	color:#FFFFFF;
+	padding-top:10px;
+	
+}
+
+.lianxis .anniu{
+	width:178px;
+	height:40px;
+	background-color:#ff0000;
+	border-radius: 5px;
+	
+	text-align:center;
+	line-height:40px;
+	margin-top:13px;
+}
+.lianxis .anniu a{
+	color:#FFFFFF;
+}
+
+/*最后的了*/
+.roots{
+	width:754px;
+	height:63px;
+	margin:0 auto;
+	margin-top:16px;
+}
+.roots-bao{
+	color:#999999;
+	text-align:center;
+	font-size:12px;
+}
+.roots img{
+	margin-top:16px;
+	margin-left:15px;
+	_margin-left:5px;
+	float:left;
+	padding-bottom:25px
+}
+
+
+
+
+
+
 
 
 
