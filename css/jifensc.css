@@ -1,4 +1,4 @@
-/*<!--header-->*/
+*<!--header-->*/
 .tab{
 	width:100%;
 	height:42px;
@@ -316,7 +316,9 @@
 .erji p{
     height: 10px;
 }
-/*以上是公共部分*/
+
+/*<!--当前位置-->*/
+
 .hesta{
 	width:1200px;
 	height:35px;
@@ -344,7 +346,6 @@
 	margin:0 auto;
 	border:1px solid #cccccc;
 	margin-top:10px;
-	margin-bottom:19px;
 }
 .xp-heng-zi{
 	color:#0487e2;
@@ -366,109 +367,124 @@
 .xp-annv a{
 	color:#FFFFFF;
 }
-/*<!--内容页部分-->*/
-.anxu-contxt{
+
+/*页面部分*/
+.yem{
 	width:1200px;
-	height:890px;
-	/*border:1px solid #000;*/
+	height:1038px;
+	border:1px solid #000000;
 	margin:0 auto;
-	
 }
-.anxuboxs img{
-	width:400px;
-	height:400px;
+.jifen-left{
+	width:239px;
+	height:1038px;
+	border:1px solid #ccc;
 	float:left;
 }
-.anxu-input{
-	width:661px;
-	height:829px;
+.jifen-nei{
+	width: 239px;
+	height:465px;
 	/*border:1px solid #000;*/
-	float:left;
+	border-top:2px solid #0487e2;
+}
+.stl{
+	width:100%;
+	height:52px;
+	background:#ccc;
+	font-size:15px;
+	line-height:52px;
+	font-weight:bold;
+}
+.jin-v{
+	font-size:14px;
+	font-weight:bold;
+	margin-top:14px;
+	margin-left:10px;
+	_magin-left:5px;
+}
+.ji-t{
+	width:157px;
+	height:57px;
+	font-size:13px;
+	line-height:20px;
+	color:#ff0000;
+	margin-left:20px;
+	_margin-left:10px;
+	margin-top:14px;
+}
+.listyt{
+	width:216px;
+	height:70px;
+	line-height:25px;
+	font-size:13px;
+	margin-left:19px;
+	_margin-left:10px;
+	margin-top:14px;
+}
+.stryio-zi{
+	width:216px;
+	height:70px;
+	line-height:25px;
+	font-size:13px;
+	margin-left:19px;
+	_margin-left:10px;
+	margin-top:14px;
+}
+.jifen-xia{
+	width: 239px;
+	height:465px;
+	/*border:1px solid #000;*/
+	border-top:2px solid #0487e2;
+}
+.htel img{
+	margin-top:68px;
+}
+.csti{
+	margin-left:19px;
+	_margin-left:10px;
 	margin-top:30px;
-	margin-left:100px;
-	_margin-left:50px;
+	font-size:13px;
+	color:red;
 }
-.ctysl label{
-	padding-right:33px;
-}
-.ctysl select{
-	width:409px;
-	height:30px;
-	border:1px solid #C8CACB;
-   -moz-appearance:none;
-   -webkit-appearance:none;
-   color:#57595a;
-   border-radius:3px;
-}
-.ctysl{
-	margin-bottom: 18px;
-}
-.srts{
-	margin-bottom: 18px;
-}
-.srts input{
-	width:403px;
-	height:30px;
-	border:1px solid #C8CACB;
-	outline:none;
-	padding-left:5px;
-	 color:#57595a;
-}
-
-.srts label{
-	padding-right:33px;
-}
-.checkre label{
-	padding-right:33px;
-}
-.checkre input{
-	width:17px;
-	height:17px;
-	background:#FFFFFF;
-	border:1px solid #000;
-}
-.texsu{
-	margin-bottom: 18px;
-}
-.texsu textarea{
-	margin-left:118px;
-}
-.lift{
+.teor{
+	 margin-left:19px;
+	_margin-left:10px;
+	font-size:13px;
+	margin-top:12px;
+	line-height:25px;
 	
 }
-.lift label{
-	padding-right:63px;
+/*<!--页面右边-->*/
+
+/*948
+1030*/
+.jifen-right{
+	width:948px;
+	height:1030px;
+	border:1px solid #cccccc;
+	float:left;
+	margin-left:8px;
+	_margin-left:4px;
 }
 
-.liftde{
-	margin-top: 33px;
-}
-.liftde input{
-	width:403px;
-	height:30px;
-	border:1px solid #C8CACB;
-	outline:none;
-	padding-left:5px;
-	 color:#57595a;
+/*851
+956*/
+.jifen-sd{
+	width:851px;
+	height:956px;
+	border:1px solid red;
+	margin:0 auto;
 }
 
-.liftde label{
-	padding-right:33px;
-}
 
-#subsit{
-	width:200px;
-	height:50px;
-	background-color:#ffcc00;
-	color:#FFFFFF;
-	font-size:20px;
-	text-align:center;
-	line-height:50px;
-	border-radius: 15px;
-	margin-left:243px;
-	_margin-left:121.5px;
-	margin-top:52px;
-}
+
+
+
+
+
+
+
+
 
 /*黑块部分*/
 
@@ -561,15 +577,3 @@
 	float:left;
 	padding-bottom:25px
 }
-
-
-
-
-
-
-
-
-
-
-
-
