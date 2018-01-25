@@ -316,3 +316,36 @@
 .erji p{
     height: 10px;
 }
+
+.hesta{
+	width:1200px;
+	height:35px;
+	/*border:1px solid #000000;*/
+	margin:0 auto;
+	margin-top:9px;
+}
+.hesta .current,.hesta .shouye,.hesta .xin{
+	font-size:12px;
+	line-height:35px;
+	float:left;
+}
+.hesta .shouye a,.hesta .xin a{
+	color:#f90;
+}
+.hesta .shouye{
+	margin-left:8px;
+	_margin-left:4px;
+	margin-right:8px;
+	_margin-right:4px;
+}
+
+
+
+
+
+
+
+
+
+
+

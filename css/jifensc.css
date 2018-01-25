@@ -372,7 +372,7 @@
 .yem{
 	width:1200px;
 	height:1038px;
-	border:1px solid #000000;
+	/*border:1px solid #000000;*/
 	margin:0 auto;
 }
 .jifen-left{
@@ -456,25 +456,147 @@
 }
 /*<!--页面右边-->*/
 
-/*948
-1030*/
+
 .jifen-right{
 	width:948px;
-	height:1030px;
+	height:1038px;
 	border:1px solid #cccccc;
 	float:left;
 	margin-left:8px;
 	_margin-left:4px;
 }
 
-/*851
-956*/
+
 .jifen-sd{
 	width:851px;
 	height:956px;
-	border:1px solid red;
 	margin:0 auto;
 }
+
+.jifen-pin{
+	width:253px;
+	height:313px;
+	border:1px solid #ccc;
+	float:left;
+	margin-top:12px;
+}
+.jifen-zi-ti{
+	width:100%;
+	text-align:center;
+	font-size:17px;
+}
+
+.jifen-duihuan{
+	width:237px;
+	height:32px;
+	/*border:1px solid #000;*/
+	padding-top:14px;
+	margin:0 auto;
+}
+.duih-s{
+	width:96px;
+	height:28px;
+	font-size:12px;
+	background:#e44e4e;
+	text-align:center;
+	line-height:28px;
+	color:#fff;
+	float:left;
+}
+.fen-s{
+	color:#333;
+	font-size:22px;
+	font-weight:bold;
+	float:right;
+	/*margin-left:60px;*/
+	margin-top:3px;
+}
+.lstw{
+    padding-top:6px;
+	color:#333;
+	font-size:18px;
+	float:right;
+	
+}
+
+.jifen-pin1{
+	width:253px;
+	height:313px;
+	border:1px solid #ccc;
+	float:left;
+	margin-left:42px;
+	_margin-left:21px;
+	margin-top:12px;
+}
+
+.jifen-pin2{
+	width:253px;
+	height:313px;
+	border:1px solid #ccc;
+	float:left;
+	margin-left:42px;
+	_margin-left:21px;
+	margin-top:12px;
+}
+
+.jifen-pin3{
+	width:253px;
+	height:313px;
+	border:1px solid #ccc;
+	float:left;
+	margin-top:12px;
+}
+
+.jifen-pin4{
+	width:253px;
+	height:313px;
+	border:1px solid #ccc;
+	float:left;
+	margin-left:42px;
+	_margin-left:21px;
+	margin-top:12px;
+}
+
+.jifen-pin5{
+	width:253px;
+	height:313px;
+	border:1px solid #ccc;
+	float:left;
+	margin-left:42px;
+	_margin-left:21px;
+	margin-top:12px;
+}
+
+.jifen-pin6{
+	width:253px;
+	height:313px;
+	border:1px solid #ccc;
+	float:left;
+	margin-top:12px;
+}
+
+.jifen-pin7{
+	width:253px;
+	height:313px;
+	border:1px solid #ccc;
+	float:left;
+	margin-left:42px;
+	_margin-left:21px;
+	margin-top:12px;
+}
+
+.jifen-pin8{
+	width:253px;
+	height:313px;
+	border:1px solid #ccc;
+	float:left;
+	margin-left:42px;
+	_margin-left:21px;
+	margin-top:12px;
+}
+
+
+
 
 
 
