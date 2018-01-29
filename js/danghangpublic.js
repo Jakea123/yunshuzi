@@ -52,4 +52,19 @@ $(function(){
                 }
             });
 
+
+
+$('.someboxsa').click(function(){
+	$(this).toggleClass('hoddts');
+	$('.tu-st').fadeToggle('xian-shatbox');
+	})
+
+
+
+
+
+
+
+
+
 })

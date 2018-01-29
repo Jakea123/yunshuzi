@@ -57,7 +57,41 @@
 .t{
 	color:#FF9900;
 }
-
+.boxs{
+	width:500px;
+	height:500px;
+	border:1px solid #000000;
+	margin:0 auto;
+	position:relative;
+}
+.somebox{
+	width:100px;
+	height:100px;
+	/*background:red;*/
+	background:url(img/loginWx.png)no-repeat center;
+}
+.atre{
+	width:100px;
+	height:100px;
+	background:url(img/loginPc.png)no-repeat center;
+}
+.mitibox{
+	width:200px;
+	height:200px;
+	background:yellow;
+	display:block;
+}
+.boxsyt{
+	width:200px;
+	height:100px;
+	background:blueviolet;
+	opacity:0.6;
+	position:absolute;
+	left:0px;
+	top:100px;
+	z-index:5;
+	display:none;
+}
 	</style>
 </head>
 <body>
@@ -74,10 +108,44 @@
 	</ul>
 	
 	
+	
+	
+	<div class="boxs">
+		<div class="somebox"></div>
+		
+		<div class="mitibox"></div>
+		<div class="boxsyt"></div>
+	</div>
 </body>
 <script src="js/jquery-3.2.1.min.js"></script>
 <script>
 	$(function(){
+
+	$('.somebox').click(function(){
+	$(this).toggleClass('atre');
+	$('.boxsyt').fadeToggle('mitibox');
+	})	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		$(".a1").hover(function(){
 //			$(this).css({
 //				"background":"red",
@@ -92,6 +160,10 @@
 	$(".d1").click(function(){
 		$(this).eq().addClass('t');
 	})
+		
+		
+		
+		
 		
 		
 		

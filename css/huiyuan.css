@@ -327,6 +327,223 @@
 	margin:0 auto;
 }
 
+.gey img{
+	margin-top:68px;
+	margin-left:38px;
+	_margin-left:19px;
+	float:left;
+}
+/*350  255*/
+.mils{
+	width:350px;
+	height:255px;
+	border:1px solid #000;
+	float:left;
+	margin-top:90px;
+	margin-left:60px;
+	_margin-left:87.5px;
+	position:relative;
+}
+.someboxsa{
+	width: 55px;
+	height:55px;
+	position:absolute;
+	right:0px;
+	top:0px;
+	background:url(../img/loginWx.png);
+	border:1px solid red;
+}
+
+.hoddts{
+	width: 55px;
+	height:55px;
+	position:absolute;
+	right:0px;
+	top:0px;
+	background:url(../img/loginPc.png);
+}
+
+.xian-shatbox{
+	width:328px;
+	height:216px;
+	border:1px solid #000;
+	position:absolute;
+	left:0px;
+	top:42px;
+	background-color:#FFFFFF;
+}
+
+
+
+
+
+
+.tu-st{
+	width:328px;
+	height:216px;
+	/*border:1px solid #000;*/
+	position:absolute;
+	left:0px;
+	top:42px;
+	background-color:#fff;
+	display:none;
+}
+.spoi{
+	font-size:16px;
+	font-weight:bold;
+	
+}
+.erweill img{
+	width:131px;
+	height:131px;
+	margin-left:96px;
+	_margin-left:48px;
+	margin-top:15px;
+}
+.biaol img{
+	margin-left:96px;
+	_margin-left:48px;
+	float:left;
+	margin-top:12px;
+	margin-right:12px;
+	_margin-right:6px;
+}
+.tu-st p{
+	color:red;
+	font-size:12px;
+	margin-top:22px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*黑块部分*/
+
+.foot-hei{
+	width:100%;
+	height:224px;
+	background-color:#333333;
+	margin-top:44px;
+	
+}
+
+.foot-neibu{
+	width:1200px;
+	height:152px;
+	margin-top:39px;
+	/*border:1px solid #FFFFFF;*/
+	margin:0 auto;
+	
+}
+.shuzus{
+	width:79px;
+	height:150px;
+	/*border:1px solid #FFFFFF;*/
+	margin-top:43px;
+	float: left;
+	margin-left:124px;
+	_margin-left:62px;
+}
+.foots-zui{
+	color:#FFFFFF;
+	font-size:12px;
+	line-height:22px;
+}
+.shuzus .dds{
+	font-size:16px;
+	font-weight:bold;
+	
+}
+
+.foots-zui a,.dds a{
+	color:#FFFFFF;
+}
+.foots-zui a:hover{
+	color:#0487e2;
+}
+
+.lianxis{
+	width:250px;
+	height:150px;
+	float:left;
+	margin-top:81px;
+	margin-left:116px;
+}
+.lianxis .dianhua{
+	color:#FFFFFF;
+	padding-top:10px;
+	
+}
+
+.lianxis .anniu{
+	width:178px;
+	height:40px;
+	background-color:#ff0000;
+	border-radius: 5px;
+	
+	text-align:center;
+	line-height:40px;
+	margin-top:13px;
+}
+.lianxis .anniu a{
+	color:#FFFFFF;
+}
+
+/*最后的了*/
+.roots{
+	width:754px;
+	height:63px;
+	margin:0 auto;
+	margin-top:16px;
+}
+.roots-bao{
+	color:#999999;
+	text-align:center;
+	font-size:12px;
+}
+.
+.roots img{
+	margin-top:16px;
+	margin-left:15px;
+	_margin-left:5px;
+	float:left;
+	padding-bottom:25px;
+	float:left;
+}
+
+
+
+
+
+
+
 
 
 
