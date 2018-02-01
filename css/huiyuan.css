@@ -318,12 +318,11 @@
 }
 
 /*页面内容*/
-/*436*/
+
 .hui-i{
 	width:1200px;
 	height:436px;
 	background-color:#FFFFFF;
-	border:1px solid #000000;
 	margin:0 auto;
 }
 
@@ -333,11 +332,10 @@
 	_margin-left:19px;
 	float:left;
 }
-/*350  255*/
+
 .mils{
 	width:350px;
 	height:255px;
-	border:1px solid #000;
 	float:left;
 	margin-top:90px;
 	margin-left:60px;
@@ -351,7 +349,7 @@
 	right:0px;
 	top:0px;
 	background:url(../img/loginWx.png);
-	border:1px solid red;
+	/*border:1px solid red;*/
 }
 
 .hoddts{
@@ -364,23 +362,75 @@
 }
 
 .xian-shatbox{
-	width:328px;
+	width:326px;
 	height:216px;
-	border:1px solid #000;
 	position:absolute;
 	left:0px;
 	top:42px;
 	background-color:#FFFFFF;
 }
-
-
-
-
-
+.xian-shatbox img{
+	width:40px;
+	height:42px;
+	margin-top:13px;
+}
+input{  
+   background:none;  
+   outline:none;  
+   border:0px;  
+}
+.gtr{
+	margin-top:10px;
+}  
+#ik{
+	width:269px;
+	height:38px;
+	margin-top:13px;
+	margin-left:-5px;
+	border:1px solid #dddddd;
+	background-color:#f2f2f2;
+}
+#mn{
+	width:269px;
+	height:38px;
+	margin-top:13px;
+	margin-left:-5px;
+	border:1px solid #dddddd;
+	background-color:#f2f2f2;
+}
+.stbl{
+	width:323px;
+	height:42px;
+	background-color:#ff4c0c;
+	color:#FFFFFF;
+	font-size:14px;
+	text-align:center;
+	line-height:40px;
+	font-weight:bold;
+	margin-top:12px;
+	cursor:pointer;
+	
+}
+.del{
+	font-size:12px;
+	margin-top:15px;
+}
+.lads a{
+	float:right;
+	color:#000000;
+	padding-left:16px;
+}
+.lads a:hover{
+	color:red;
+}
+.cls a{
+	float:right;
+	color:red;
+}
 
 .tu-st{
 	width:328px;
-	height:216px;
+	height:226px;
 	/*border:1px solid #000;*/
 	position:absolute;
 	left:0px;
@@ -413,36 +463,6 @@
 	font-size:12px;
 	margin-top:22px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*黑块部分*/
 
